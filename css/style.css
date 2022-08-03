@@ -4,11 +4,9 @@
 }
 
 body{
-    font: poppins;
-    font-family:sans-serif;
+    font-family: poppins;
     display: flex;
     flex-direction: column;
-    height: 100vh;
 }
 
 .container{
