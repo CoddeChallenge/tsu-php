@@ -1,0 +1,198 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font: poppins;
+    font-family:sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.container{
+    max-width: 960px;
+    margin: 0px auto;
+    background-color: #F8F8F8;
+    
+}
+/***** HEADER FIRST******/
+.header{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+.img + p{
+    padding: 0px 28px 0px 5px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.img{
+    width: 24px;
+    height: 24px;
+}
+
+/***** HEADER SECOND******/
+.container-info{
+   height: 150px;
+   display: flex;
+   justify-content: center;
+    
+}
+
+.info-header{
+    padding: 10px;
+    color: white;
+    flex: 1;
+    background-color: #32A0F0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.titulo-s{
+    padding: 10px 0px;
+    font-size: 24px;
+}
+
+.titulo{
+    font-size: 24px;
+}
+
+.sub-titulo {
+    padding: 10px 0px;
+    font-size: 14px;
+}
+
+.sub-t {
+    font-size: 32px;
+}
+.center{
+    background-color: #2582C6;
+}
+
+
+/***** COMBOBOX MAIN ******/
+.main-info{
+    padding: 28px;
+    display: flex;
+}
+
+.combobox + .combobox{
+    margin-left: 20px;
+}
+.combobox{
+    flex: 1;
+    width: 215px;
+    height: 38px;
+}
+.combobox select{
+    box-shadow: 2px 2px 2px 2px #888888;
+    border-radius: 6px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-color: #D9D9D9;
+}
+
+/******* TITULO TSU ********/
+.main-title{
+    box-shadow: 0px 2px 2px 0px #888888;
+    margin: 0px auto;
+    height: 40px;
+    max-width: 904px;
+    background-color: #2582C6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-title p{
+    font-weight: bold;
+    color: white;
+}
+
+/************* PONTOS ****************/
+.pontos-info{
+    padding: 28px;
+    display: flex;
+}
+
+.output + .output{
+    margin-left: 20px;
+}
+.output{
+    flex: 1;
+    width: 215px;
+    height: 38px;
+    box-shadow: 2px 2px 2px 2px #888888;
+    border-radius: 3px;
+    background-color: #D9D9D9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.output p{
+    
+    font-size: 14px;
+}
+
+.salario-info{
+    padding: 0px 28px;
+    display: flex;
+}
+
+/***** BTN CALCULAR *****/
+.btn{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.btn button{
+    border: none;
+    box-shadow: 2px 2px 2px 2px #888888;
+    border-radius: 9px;
+    margin: 38px;
+    justify-content: center;
+    align-self: center;
+    color: white;
+    width: 185px;
+    height: 53px;
+    background-color: #32A0F0;
+}
+
+/**** FOOTER ***/
+
+footer{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.footer p{
+    font-size: 13px;
+    align-self: flex-end;
+}
+.footer{
+    
+    color: #B9C0C4;
+    text-align: center;
+    background: #F8F8F8;
+    width: 100%;
+    padding-bottom: 28px;
+    //position: absolute;
+   // bottom: 0;
+}
