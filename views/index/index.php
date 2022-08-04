@@ -1,100 +1,79 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>TSU - PHP</title>
-    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-</head>
-<body >
-    <header class="container header">
-        <div class="img">
-            <img src="img/github.svg">
-        </div>
-        <p>CodeChallenge Community</p>
-    </header>
-    <main>
-        <div class="container">
-            <div class="container-info">
-                <div class="info-header">
-                    <p class="titulo">22, Agosto</p>
-                    <p class="sub-titulo">Quarta-Feira</p>
-                </div>
-                <div class="info-header center">
-                    <p class="titulo-s">Sálario:</p>
-                    <p class="sub-t">0,00 MT</p>
-                </div>
-                <div class="info-header">
-                    <p class="titulo">12:04:12</p>
-                </div>
+<?php require 'views/header.php';?>
+<main>
+    <div class="container">
+        <div class="container-info">
+            <div class="info-header">
+                <p class="titulo">22, Agosto</p>
+                <p class="sub-titulo">Quarta-Feira</p>
             </div>
-            <div class="main-info">
-                <div class="combobox">
-                    <select >
-                        <option value="volvo">Tempo Efectivo</option>
-                        <option value="saab">Saab</option>
-                    </select>
-                </div>
-                <div class="combobox">
-                    <select>
-                        <option value="volvo">Idade</option>
-                        <option value="saab">Saab</option>
-                    </select>
-                </div>
-                 <div class="combobox">
-                    <select >
-                        <option value="volvo">Habilações Literárias</option>
-                        <option value="saab">Saab</option>
-                    </select>
-                </div>
-                <div class="combobox">
-                    <select>
-                        <option value="volvo">Tempo de Serviço</option>
-                        <option value="saab">Saab</option>
-                    </select>
-                </div>
+            <div class="info-header center">
+                <p class="titulo-s">Sálario:</p>
+                <p class="sub-t">0,00 MT</p>
             </div>
-            <div class="main-title">
-               <p>Pontuação Segundo os Critérios da TSU</p>
-            </div>
-            <div class="pontos-info">
-                <div class="output">
-                    <p>Pontos Tempo Efectivo</p>
-                    <p>0</p>
-                </div>
-                <div class="output">
-                    <p>Pontos da Idade</p>
-                    <p>0</p>
-                </div>
-                <div class="output">
-                    <p>Pontos das Habilações Literárias</p>
-                    <p>0</p>
-                </div>
-                <div class="output">
-                    <p>Pontos deTempo de Serviço</p>
-                    <p>0</p>
-                </div>
-            </div>
-            <div class="salario-info">
-                <div class="output">
-                    <p>Nivel Sálarial</p>
-                    <p>0</p>
-                </div>
-                <div class="output">
-                    <p>Escalão</p>
-                    <p>A</p>
-                </div>
-            </div>
-            <div class="btn">
-                <button>Calcular</button>
+            <div class="info-header">
+                <p class="titulo">12:04:12</p>
             </div>
         </div>
-    </main>
-    <footer>
-        <div class="container footer">
-            <p>© Nhala's. Todos os direitos reservados</p>
+        <div class="main-info">
+            <div class="combobox">
+                <select >
+                    <option value="volvo">Tempo Efectivo</option>
+                    <option value="saab">Saab</option>
+                </select>
+            </div>
+            <div class="combobox">
+                <select>
+                    <option value="volvo">Idade</option>
+                    <option value="saab">Saab</option>
+                </select>
+            </div>
+             <div class="combobox">
+                <select >
+                    <option value="volvo">Habilações Literárias</option>
+                    <option value="saab">Saab</option>
+                </select>
+            </div>
+            <div class="combobox">
+                <select>
+                    <option value="volvo">Tempo de Serviço</option>
+                    <option value="saab">Saab</option>
+                </select>
+            </div>
         </div>
-    </footer>
-</body>
-</html>
+        <div class="main-title">
+           <p>Pontuação Segundo os Critérios da TSU</p>
+        </div>
+        <div class="pontos-info">
+            <div class="output">
+                <p>Pontos Tempo Efectivo</p>
+                <p>0</p>
+            </div>
+            <div class="output">
+                <p>Pontos da Idade</p>
+                <p>0</p>
+            </div>
+            <div class="output">
+                <p>Pontos das Habilações Literárias</p>
+                <p>0</p>
+            </div>
+            <div class="output">
+                <p>Pontos deTempo de Serviço</p>
+                <p>0</p>
+            </div>
+        </div>
+        <div class="salario-info">
+            <div class="output">
+                <p>Nivel Sálarial</p>
+                <p>0</p>
+            </div>
+            <div class="output">
+                <p>Escalão</p>
+                <p>A</p>
+            </div>
+        </div>
+        <div class="btn">
+            <button>Calcular</button>
+        </div>
+    </div>
+</main>
+<?php require 'views/footer.php';?>
