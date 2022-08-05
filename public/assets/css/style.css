@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+
 }
 
 body{
@@ -18,11 +19,21 @@ body{
 /***** HEADER FIRST******/
 .header{
     height: 60px;
-    width: 100%;
+    width: 100%; 
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    
+}
+
+.header > a{
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+}
+
+a {
+    text-decoration:none;
+    color:  black;
 }
 
 .img + p{

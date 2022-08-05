@@ -9,8 +9,10 @@
 </head>
 <body >
     <header class="container header">
-        <div class="img">
-            <img src="<?php echo constant('URL');?>public/assets/img/github.svg">
-        </div>
-        <p>CodeChallenge Community</p>
+        <a href="https://github.com/CoddeChallenge" target="_blank">
+            <div class="img">
+                <img src="<?php echo constant('URL');?>public/assets/img/github.svg">
+            </div>
+            <p>CodeChallenge Community</p>
+        </a>
     </header>

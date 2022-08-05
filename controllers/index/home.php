@@ -12,10 +12,8 @@
     	}
 
     	function diasSemana(){
-    		$diasemana = array('Domingo', 'Segunda-Feira', 'Terça-Feira', 'Quarta-Feira', 'Quinta-Feira', 'Sexta-Feira', 'Sabado');
-    		$data = date('Y-m-d');
-    		$diasemana_numero = date('w', strtotime($data));
-    		return $diasemana[$diasemana_numero];
+    		$diasemana = array('Domingo', 'Segunda-Feira', 'Terça-Feira', 'Quarta-Feira', 'Quinta-Feira', 'Sexta-Feira', 'Sábado');
+    		return $diasemana[date('w', strtotime(date('Y-m-d')))];
     	}
 	}
 ?>
