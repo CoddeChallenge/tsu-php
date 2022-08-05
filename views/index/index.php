@@ -3,15 +3,15 @@
     <div class="container">
         <div class="container-info">
             <div class="info-header">
-                <p class="titulo">22, Agosto</p>
-                <p class="sub-titulo">Quarta-Feira</p>
+                <p class="titulo"><?php echo $this->dataDiaMes;?></p>
+                <p class="sub-titulo"><?php echo $this->dataSemana;?></p>
             </div>
             <div class="info-header center">
                 <p class="titulo-s">Sálario:</p>
                 <p class="sub-t">0,00 MT</p>
             </div>
             <div class="info-header">
-                <p class="titulo">12:04:12</p>
+                <p class="titulo"><?php echo $this->dataHora;?></p>
             </div>
         </div>
         <div class="main-info">
