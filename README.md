@@ -1,6 +1,14 @@
 # TSU PHP
 O TSU PHP é uma solução open source desenvolvida para ajudar os Funcionários Públicos e agentes do estado a simular o seu salário com base na Tabela Salarial Única.
 
+##Como executar o aplicativo
+1.
+2.
+3.
+4.
+5.
+6.
+
 # COMO CONTRIBUIR
 De domínio básico de PHP, CSS ou JavaScript ?? Faça um clone do repositório e contribua.
 Faça também parte da comunidade CodeChallenge pelo <a href="https://chat.whatsapp.com/JZyhs83pM108WoTg5aTns2">link</a> e Mantenha-se atualizado sobre varios challenges e oportunidades para crescer como Desenvolvedor...
