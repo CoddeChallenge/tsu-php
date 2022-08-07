@@ -16,9 +16,10 @@ Faça também parte da comunidade CodeChallenge pelo <a href="https://chat.whats
 
 # Paramentros e Campos de Entreda
 - Tempo Efectivo na Carreira
-  -ghh
+  - ghh
 * Idade
 * Habilitações
+  * GG
 * Tempo de serviço na Administração Pública
 
 
