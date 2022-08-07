@@ -10,12 +10,16 @@ O TSU PHP é uma solução open source desenvolvida para ajudar os Funcionários
 
 ## Como calcular o sálario 
 1. Selecione:
-  * Selecione:
-    * Tempo Efectivo
-    * Idade
-    * Habilitações Literárias
-    * Tempo de Serviço
-2. Calcular
+   *
+     * Tempo Efectivo
+     * Idade
+     * Habilitações Literárias
+     * Tempo de Serviço
+   *
+2.
+  *
+    * Calcular
+  *
 
 ## Como é o aplicativo
 ![TSU-d](https://user-images.githubusercontent.com/72521774/182470102-947d22bc-8dbf-4cee-85f7-58758b88f966.jpg)
