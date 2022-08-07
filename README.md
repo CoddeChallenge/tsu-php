@@ -1,12 +1,16 @@
 # TSU PHP
 O TSU PHP é uma solução open source desenvolvida para ajudar os Funcionários Públicos e agentes do estado a simular o seu salário com base na Tabela Salarial Única.
 
+## Requisitos para executar o aplicativo
+* <a href="https://www.php.net/downloads">PHP 7.2+</a>
+* <a href="https://www.apachefriends.org/">XAMPP 3.2.4+</a> ou <a href="https://www.wampserver.com/en/">WAMP 2.5+</a>
+
+
 ## Como executar o aplicativo
 1. Clone tsu-php ou baixe o arquivo zip
-2. Ter instalado um servidor web, XAMPP ou WAMP
-3. Extrair o arquivo zip no htdocs(XAMPP)
-4. Inicie o servidor web. O aplicativo será rodado em http://localhost:8080/
-5. Vá para http://localhost:8080/tsu-php ou http://localhost:8080/ nome da pasta que extraiu o arquivo
+2. Extrair o arquivo zip no htdocs(XAMPP)
+3. Inicie o servidor web. O aplicativo será rodado em http://localhost:8080/
+4. Vá para http://localhost:8080/tsu-php ou http://localhost:8080/ nome da pasta que extraiu o arquivo
 
 ## Como calcular o sálario 
 1. Selecione:
