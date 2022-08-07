@@ -16,10 +16,18 @@ O TSU PHP é uma solução open source desenvolvida para ajudar os Funcionários
      * Tempo de Serviço
 2. Calcular
   
+## Características
+* Pontos
+    * São baseados nos criterios da TSU
+    
+## Saida e Resultados
+* Nivel Salarial da TSU
+* Escalão e Categoria
+* Valor em Metical
 
 ## Como é o aplicativo
 ![TSU-d](https://user-images.githubusercontent.com/72521774/182470102-947d22bc-8dbf-4cee-85f7-58758b88f966.jpg)
 
-## COMO CONTRIBUIR
+## Como contribuir
 De domínio básico de PHP, CSS ou JavaScript ?? Faça um clone do repositório e contribua.
 Faça também parte da comunidade CodeChallenge pelo <a href="https://chat.whatsapp.com/JZyhs83pM108WoTg5aTns2">link</a> e Mantenha-se atualizado sobre varios challenges e oportunidades para crescer como Desenvolvedor...
